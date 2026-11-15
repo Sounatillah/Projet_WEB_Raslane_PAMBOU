@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formez votre hypothèse à partir des éléments du dossier n°017.">
+  <title>Déduction — The Last Message</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/deduction.js" defer></script>
+</head>
+<body id="page-deduction" class="page page-deduction">
+  <a class="skip-link" href="#contenu-deduction">Aller au contenu</a>
+
+  <header id="haut-de-page" class="site-header container">
+    <a class="site-brand" href="accueil.html">THE LAST MESSAGE</a>
+    <nav id="navigation-principale" class="site-nav" aria-label="Navigation principale">
+      <a class="site-nav__link" href="accueil.html">Accueil</a>
+      <a class="site-nav__link" href="affaire.html">L’affaire</a>
+      <a class="site-nav__link" href="preuves.html">Les preuves</a>
+      <a class="site-nav__link site-nav__link--active" href="deduction.html" aria-current="page">Déduction</a>
+      <a class="site-nav__link" href="apropos.html">À propos</a>
+    </nav>
+  </header>
+
+  <main id="contenu-deduction" class="site-main">
+    <section id="introduction-deduction" class="page-hero container">
+      <p class="eyebrow">Dernière étape · Dossier n°017</p>
+      <h1 class="page-title">À vous de<br><span>conclure.</span></h1>
+      <p class="lead">
+        Reliez les éléments du dossier et consignez votre hypothèse.
+        Appuyez votre conclusion sur les faits que vous avez examinés.
+      </p>
+      <a class="button" href="preuves.html">Revoir les preuves <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section id="formulaire-deduction" class="content-section container">
+      <p class="section-kicker">Votre feuille de déduction</p>
+      <h2 class="section-title">Qu’avez-vous compris&nbsp;?</h2>
+
+      <form class="deduction-form" action="#" method="get">
+
+<div class="form-field">
+    <label for="suspect-choisi">
+        Qui vous semble le plus impliqué dans cette affaire ?
+    </label>
+
+    <select id="suspect-choisi" name="suspect-choisi" required>
+        <option value="">Choisissez un suspect</option>
+        <option value="nora">Nora Benali</option>
+        <option value="marc">Marc Delcourt</option>
+        <option value="thomas">Thomas Leroy</option>
+        <option value="sarah">Sarah Morel</option>
+    </select>
+</div>
+
+        <div class="form-field">
+          <label for="piece-decisive">
+            Quelle pièce vous a paru la plus importante ?
+          </label>
+          <select id="piece-decisive" name="piece-decisive" required>
+            <option value="">Choisissez une pièce</option>
+            <option value="preuve-01">Pièce 01 — Le dernier message</option>
+            <option value="preuve-02">Pièce 02 — La caméra en retard</option>
+            <option value="preuve-03">Pièce 03 — La sortie de service</option>
+            <option value="preuve-04">Pièce 04 — Le dossier déplacé</option>
+            <option value="preuve-05">Pièce 05 — Le détail de trop</option>
+            <option value="preuve-06">Pièce 06 — Le billet de minuit</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="hypothese">
+            Quel scénario explique le mieux les indices ?
+          </label>
+          <select id="hypothese" name="hypothese" required>
+            <option value="">Choisissez votre hypothèse</option>
+            <option value="enlevement">
+              Élise a été enlevée après avoir envoyé son dernier message.
+            </option>
+            <option value="depart">
+              Élise avait préparé son départ, tandis que quelqu’un cherchait à cacher
+              le déplacement du dossier 17-B.
+            </option>
+            <option value="accident">
+              Élise a disparu à la suite d’un accident, sans lien avec le dossier.
+            </option>
+            <option value="fausse-piste">
+              Les horaires des caméras ont été modifiés pour fabriquer une fausse piste.
+            </option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="raisonnement">
+            Expliquez votre raisonnement
+          </label>
+          <textarea id="raisonnement"
+                    name="raisonnement"
+                    rows="6"
+                    placeholder="Reliez les heures de la caméra, la silhouette, le dossier 17-B et le billet de bus."
+                    required></textarea>
+        </div>
+
+        <p class="form-note">
+          Le dossier sera analysé après validation de votre hypothèse.
+        </p>
+
+        <button id="bouton-verdict" class="button" type="button" disabled>
+          Révéler le verdict
+        </button>
+      </form>
+      <div id="resultat-deduction"
+           class="result-panel"
+           aria-live="polite"
+           tabindex="-1"
+           hidden></div>
+
+<button
+    type="button"
+    id="bouton-revelation"
+    class="suspect-button"
+    hidden>
+    Révéler la vérité sur le dossier n°017
+</button>
+
+<div
+    id="revelation-finale"
+    class="result-panel"
+    hidden>
+</div>
+
+
+    </section>
+  </main>
+
+  <footer id="pied-de-page" class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-mark">THE LAST MESSAGE <span>— CASE 001</span></p>
+      <nav id="navigation-pied" class="footer-nav" aria-label="Navigation de pied de page">
+        <a href="https://www.efrei.fr/">EFREI</a>
+        <a href="apropos.html">À propos</a>
+        <a href="#haut-de-page">Retour en haut ↑</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
