@@ -9,7 +9,7 @@
 Le site propose un parcours en cinq pages :
 
 1. **Accueil** — présente l’univers de l’enquête.
-2. **L’affaire** — raconte la disparition d’Élise Moreau.
+2. **L’affaire** — raconte la disparition d’Élise Moreau et présente les suspects.
 3. **Les preuves** — rassemble six pièces à examiner.
 4. **Déduction** — invite le visiteur à choisir une hypothèse et à expliquer son raisonnement.
 5. **À propos** — présente les membres du projet et leurs contributions.
@@ -51,7 +51,7 @@ The-Last-Message/
 ├── css/
 │   └── style.css
 ├── js/
-│   ├── accueil.js
+│   ├── carrousel-accueil.js
 │   └── deduction.js
 ├── img/
 │   └── images du projet
