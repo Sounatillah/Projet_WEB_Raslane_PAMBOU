@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Les faits connus sur la disparition d’Élise Moreau, dossier n°017.">
+  <title>L’affaire — The Last Message</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="page-affaire" class="page page-affaire">
+  <a class="skip-link" href="#contenu-affaire">Aller au contenu</a>
+
+  <header id="haut-de-page" class="site-header container">
+    <a class="site-brand" href="accueil.html">THE LAST MESSAGE</a>
+    <nav id="navigation-principale" class="site-nav" aria-label="Navigation principale">
+      <a class="site-nav__link" href="accueil.html">Accueil</a>
+      <a class="site-nav__link site-nav__link--active" href="affaire.html" aria-current="page">L’affaire</a>
+      <a class="site-nav__link" href="preuves.html">Les preuves</a>
+      <a class="site-nav__link" href="deduction.html">Déduction</a>
+      <a class="site-nav__link" href="apropos.html">À propos</a>
+    </nav>
+  </header>
+
+  <main id="contenu-affaire" class="site-main">
+    <section id="introduction-affaire" class="page-hero container affaire-hero">
+      <div class="affaire-hero__texte">
+        <p class="eyebrow">L’affaire · Dossier n°017</p>
+
+        <h1 class="page-title">
+          Élise Moreau<br>
+          <span>a disparu.</span>
+        </h1>
+
+        <p class="lead">
+          Avant de disparaître, elle a laissé plusieurs documents.
+          Quatre suspects ont livré des témoignages à confronter.
+        </p>
+
+        <p class="fact-line">
+          Dernier contact connu · 17 octobre 2026 · 23 h 47
+        </p>
+      </div>
+    </section>
+
+    <section id="dernier-message" class="content-section container">
+      <p class="section-kicker">01 — Le dernier contact</p>
+      <h2 class="section-title">Un message. Une mise en garde.</h2>
+      <figure class="message-card">
+        <blockquote>
+          « J’ai trouvé la preuve. Dossier 17. Si quelque chose m’arrive,
+          ne crois pas ce qu’ils diront. »
+        </blockquote>
+        <figcaption>Dernier message d’Élise Moreau · 17 octobre 2026, 23 h 47</figcaption>
+      </figure>
+      <p class="section-intro">
+        C’est le point de départ de l’enquête. Que savait Élise&nbsp;?
+        Quels éléments a-t-elle laissés derrière elle&nbsp;?
+      </p>
+    </section>
+
+    <section id="faits-connus" class="content-section container">
+      <p class="section-kicker">Ce que l’on sait</p>
+      <h2 class="section-title">Les faits, avant les hypothèses.</h2>
+      <ul class="fact-list">
+        <li>Élise Moreau a disparu.</li>
+        <li>Elle a laissé plusieurs documents liés au dossier n°017.</li>
+        <li>Les déclarations de quatre suspects doivent être confrontées.</li>
+        <li>Le dossier rassemble six documents à examiner.</li>
+      </ul>
+      <a class="button" href="preuves.html">Examiner les preuves <span aria-hidden="true">→</span></a>
+    </section>
+    <section id="suspects" class="content-section container">
+  <p class="section-kicker">02 — Les personnes impliquées</p>
+
+  <h2 class="section-title">Les quatre suspects.</h2>
+
+  <p class="section-intro">
+    Quatre personnes de l'entourage d'Élise Moreau
+    pourraient détenir des informations essentielles
+    sur sa disparition.
+  </p>
+
+  <div class="suspects-grid">
+
+  <article class="suspect-card">
+     <img src="../img/nora.webp.png"
+     alt="Portrait de Nora Benali"
+     class="suspect-photo">
+    <h3>Nora Benali</h3>
+    <p class="suspect-role">Amie d'Élise</p>
+
+    <p>
+      Proche d'Élise, Nora était l'une des rares
+      personnes à connaître l'avancée de ses recherches.
+    </p>
+    <button class="suspect-button" type="button"
+        onclick="document.getElementById('dossier-nora').showModal()">
+    Consulter le dossier →
+</button>
+    
+    </article>
+
+    <article class="suspect-card">
+      <img src="../img/marc.webp.png"
+     alt="Portrait de Marc Delcourt"
+     class="suspect-photo">
+    <h3>Marc Delcourt</h3>
+    <p class="suspect-role">Responsable des archives</p>
+    <p>
+        Marc avait accès aux documents confidentiels
+        sur lesquels Élise enquêtait.
+    </p>
+    <button class="suspect-button" type="button"
+        onclick="document.getElementById('dossier-marc').showModal()">
+    Consulter le dossier →
+</button>
+</article>
+
+
+<article class="suspect-card">
+  <img src="../img/thomas.webp.png"
+     alt="Portrait de Thomas Leroy"
+     class="suspect-photo">
+    <h3>Thomas Leroy</h3>
+    <p class="suspect-role">Ancien compagnon d'Élise</p>
+    <p>
+        Thomas affirme ne rien savoir de la disparition
+        d'Élise. Pourtant, certains éléments de son
+        témoignage soulèvent des questions.
+    </p>
+    <button class="suspect-button" type="button"
+        onclick="document.getElementById('dossier-thomas').showModal()">
+    Consulter le dossier →
+</button>
+</article>
+
+<article class="suspect-card">
+  <img src="../img/sarah.webp.png"
+     alt="Portrait de Sarah Morel"
+     class="suspect-photo">
+    <h3>Sarah Morel</h3>
+    <p class="suspect-role">Collègue d'Élise</p>
+    <p>
+        Sarah travaillait avec Élise et connaissait
+        certaines de ses recherches.
+    </p>
+    <button class="suspect-button" type="button"
+        onclick="document.getElementById('dossier-sarah').showModal()">
+    Consulter le dossier →
+</button>
+</article>
+
+</div>
+</section>
+
+<!-- DOSSIER S-01 : NORA BENALI -->
+
+<dialog id="dossier-nora" class="suspect-dialog">
+    <h2>Dossier S-01 — Nora Benali</h2>
+
+    <p><strong>Identité :</strong> Nora Benali</p>
+    <p><strong>Lien avec Élise :</strong> Amie proche</p>
+
+    <h3>Témoignage</h3>
+    <p>
+        « Élise était inquiète depuis plusieurs jours.
+        Elle disait avoir découvert quelque chose
+        qu'elle ne pouvait pas laisser passer. »
+    </p>
+
+    <h3>Élément troublant</h3>
+    <p>
+        Une conversation retrouvée laisse penser que Nora
+        et Élise avaient prévu un rendez-vous avant
+        la disparition.
+    </p>
+
+    <h3>Question en suspens</h3>
+    <p>
+        Pourquoi Nora n'a-t-elle pas immédiatement
+        parlé de ce rendez-vous ?
+    </p>
+
+    <button type="button" class="suspect-button"
+            onclick="document.getElementById('dossier-nora').close()">
+        Fermer
+    </button>
+</dialog>
+
+
+<!-- DOSSIER S-02 : MARC DELCOURT -->
+
+<dialog id="dossier-marc" class="suspect-dialog">
+    <h2>Dossier S-02 — Marc Delcourt</h2>
+
+    <p><strong>Identité :</strong> Marc Delcourt</p>
+    <p><strong>Fonction :</strong> Responsable des archives</p>
+
+    <h3>Témoignage</h3>
+    <p>
+        « Je n'ai rien remarqué d'inhabituel ce soir-là.
+        Les archives étaient parfaitement en ordre. »
+    </p>
+
+    <h3>Élément troublant</h3>
+    <p>
+        Le registre des badges indique pourtant un passage
+        de Marc aux archives entre 21 h 10 et 21 h 26.
+        Un document financier du dossier 17 présente
+        également une modification validée sous
+        les initiales « MD ».
+    </p>
+
+    <h3>Question en suspens</h3>
+    <p>
+        Pourquoi certaines pièces du dossier
+        ont-elles été modifiées ?
+    </p>
+
+    <button type="button" class="suspect-button"
+            onclick="document.getElementById('dossier-marc').close()">
+        Fermer
+    </button>
+</dialog>
+
+
+<!-- DOSSIER S-03 : THOMAS LEROY -->
+
+<dialog id="dossier-thomas" class="suspect-dialog">
+    <h2>Dossier S-03 — Thomas Leroy</h2>
+
+    <p><strong>Identité :</strong> Thomas Leroy</p>
+    <p><strong>Lien avec Élise :</strong> Ancien compagnon</p>
+
+    <h3>Témoignage</h3>
+    <p>
+        « Je n'avais plus de contact avec Élise.
+        Je ne l'ai pas vue ce soir-là. »
+    </p>
+
+    <h3>Élément troublant</h3>
+    <p>
+        Un témoignage le situe pourtant avec Élise
+        vers 21 h 35, quelques heures avant
+        son dernier message.
+    </p>
+
+    <h3>Question en suspens</h3>
+    <p>
+        Pourquoi Thomas nie-t-il cette rencontre ?
+    </p>
+
+    <button type="button" class="suspect-button"
+            onclick="document.getElementById('dossier-thomas').close()">
+        Fermer
+    </button>
+</dialog>
+
+
+<!-- DOSSIER S-04 : SARAH MOREL -->
+
+<dialog id="dossier-sarah" class="suspect-dialog">
+    <h2>Dossier S-04 — Sarah Morel</h2>
+
+    <p><strong>Identité :</strong> Sarah Morel</p>
+    <p><strong>Lien avec Élise :</strong> Collègue</p>
+
+    <h3>Témoignage</h3>
+    <p>
+        « Élise travaillait sur le dossier 17,
+        mais elle ne me disait pas tout.
+        Je savais seulement qu'elle cherchait
+        une anomalie. »
+    </p>
+
+    <h3>Élément troublant</h3>
+    <p>
+        Sarah connaissait les recherches d'Élise,
+        mais son témoignage ne permet pas de déterminer
+        précisément ce qu'elle avait découvert.
+    </p>
+
+    <h3>Question en suspens</h3>
+    <p>
+        Sarah ignore-t-elle réellement
+        ce qu'Élise avait trouvé ?
+    </p>
+
+    <button type="button" class="suspect-button"
+            onclick="document.getElementById('dossier-sarah').close()">
+        Fermer
+    </button>
+</dialog>
+
+  </main>
+
+  <footer id="pied-de-page" class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-mark">THE LAST MESSAGE <span>— CASE 001</span></p>
+      <nav id="navigation-pied" class="footer-nav" aria-label="Navigation de pied de page">
+        <a href="https://www.efrei.fr/">EFREI</a>
+        <a href="apropos.html">À propos</a>
+        <a href="#haut-de-page">Retour en haut ↑</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
