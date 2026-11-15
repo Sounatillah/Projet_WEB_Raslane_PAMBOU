@@ -19,7 +19,7 @@ L’objectif est de créer une expérience immersive dans laquelle les indices s
 ## Fonctionnalités
 
 - Navigation entre les différentes pages de l’enquête.
-- Présentation des preuves avec leurs descriptions.
+- Présentation des suspects et des preuves avec leurs descriptions.
 - Carrousel d’images sur la page d’accueil.
 - Formulaire de déduction avec validation du verdict en JavaScript.
 - Mise en page adaptée aux écrans d’ordinateur et de téléphone.
